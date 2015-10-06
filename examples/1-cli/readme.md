@@ -8,17 +8,17 @@
 
 ## Transpile Single File
 
-	babel app.js --out-file dist.js
+	babel app.js -o dist.js
 
 
 ## Transpile Directory
 
-	babel ../lib --out-dir ../dist/lib
+	babel src -d dist
 
 
 ## Watch and Transpile Changes
 
-	babel src --watch --out-dir dist
+	babel src -w -d dist
 
 *	create src/divide.js
 *	see what happens

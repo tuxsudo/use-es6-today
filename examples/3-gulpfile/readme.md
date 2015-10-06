@@ -13,7 +13,7 @@ In [package.json](package.json):
 	{
 		"scripts": {
     		"build": "gulp"
-  		}
+		}
 	}
 
 

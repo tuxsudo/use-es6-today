@@ -20,7 +20,6 @@ Open [sample app](./src)
 
 Inspect the [dist](./dist) folder
 
-
 ##	View app in browser
 
 Open [app.html](./app.html) in browser
