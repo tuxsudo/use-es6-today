@@ -1,0 +1,15 @@
+{
+  "name": "node-module-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+  	"build": "babel src --out-dir dist",
+  	"dev": "babel src --watch --out-dir dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel": "^5.8.23"
+  }
+}

@@ -1,0 +1,1 @@
+export default "IZ IN UR CODEBAZE BLOATIN UR STUFFZ";

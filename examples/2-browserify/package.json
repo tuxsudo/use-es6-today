@@ -1,0 +1,15 @@
+{
+  "name": "browserify-example",
+  "version": "1.0.0",
+  "description": "npm install --save-dev gulp browserify babelify vinyl-source-stream gulp-concat babel",
+  "main": "index.js",
+  "scripts": {
+    "build:js": "browserify src/app.js -t babelify --outfile dist/app.js"
+  },
+  "author": "Jared Anderson",
+  "license": "ISC",
+  "devDependencies": {
+    "babelify": "^6.3.0",
+    "browserify": "^11.2.0"
+  }
+}
