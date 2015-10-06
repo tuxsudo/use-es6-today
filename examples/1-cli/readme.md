@@ -8,7 +8,6 @@
 
 ## Transpile Single File
 
-
 	babel app.js --out-file dist.js
 
 
