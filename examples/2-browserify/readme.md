@@ -3,7 +3,9 @@
 
 ##	Install dependencies
 
-	npm install --save-dev browserify babelify
+	npm install
+
+Dependencies are defined in [package.json](./package.json)
 
 
 ##	Look at app structure

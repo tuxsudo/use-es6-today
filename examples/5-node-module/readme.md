@@ -2,38 +2,49 @@
 
 ##	Install to project
 
-		npm install --save-dev babel
+	npm install
+
+Dependencies are defined in [package.json](./package.json)
 
 
-##	Create your ES6 src
+##	Create ES6 src
 
-		// look in src directory
+Checkout the [src](./src) directory
 
 
 ##	Create an NPM build task (and/or dev task) in package.json:
 
-		{
-			"scripts": {
-	  			"build": "babel src --out-dir dist",
-	  			"dev": "babel src --watch --out-dir dist"
-	  		}
-	  	}
+	{
+		"scripts": {
+			"build": "babel src --out-dir dist",
+			"dev": "babel src --watch --out-dir dist"
+		}
+	}
 
+
+##	Build your es6
+
+Run `npm run build` (or `npm run dev`)
+
+
+## Check build
+
+Look at the [dist](./dist) directory.
 
 ##	Specify `main` file as main module in package.json:
 
-		{
-			"main": "dist/index.js",
-		}
-
-
-##	Run `npm run build` (or `npm run dev`)
+	{
+		"main": "dist/index.js",
+	}
 
 
 ##	Publish module via `npm publish`
 
 
-##	Include and use module in project
+##	Include and use your es6-source module in project
+
+	// Some other app
+	var myModule = require('my-published-module');
 
 
 ##	...

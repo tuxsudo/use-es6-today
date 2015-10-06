@@ -1,21 +1,25 @@
 ## Install Packages
 
-	npm install --save-dev babel mocha
+	npm install
 
+Dependencies are defined in [package.json](./package.json)
 
 ## Write tests in es6
 
 View [test](./test) folder
 
-## Run test command command
+## Create test script in [package.json](package.json)
 
-	mocha --compilers js:babel/register
+	{
+		"scripts": {
+	    	"test": "mocha --compilers js:babel/register"
+	  	}
+	}
 
-## Optionally Persist, in `.package.json`
 
+## Run tests written in es6
 
-See `scripts` section of [package.json](./package.json)
-
+	npm test
 
 
 [Reference](https://babeljs.io/docs/setup/#mocha)

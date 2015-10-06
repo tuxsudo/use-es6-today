@@ -3,7 +3,9 @@
 
 ##	Install local dependencies
 
-	npm install --save-dev babel-core gulp
+	npm install
+
+Dependencies are defined in [package.json](./package.json)
 
 
 ##	Define a build script
@@ -24,5 +26,5 @@ look at this [gulp file](./gulpfile.babel.js)
 
 ##	Run Gulp
 
-	npm run build // or `gulp` globally
+	npm run build
 

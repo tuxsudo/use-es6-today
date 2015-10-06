@@ -2,19 +2,29 @@
 
 ##	Install dependencies
 
-	npm install --save-dev gulp browserify babelify vinyl-source-stream gulp-uglify gulp-streamify babel-core
+	npm install
 
 ## Create a specially name gulp file
 
-Edit [gulpfile.babel.js](gulpfile.babel.js)
+Create/Edit [gulpfile.babel.js](gulpfile.babel.js)
 
 ##	Create front-end app
 
-Open [sample app](./src)
+*	View the [src folder](./src)
+*	View source of [app.html](app.html)
 
-##	Run gulp
+## Create build shortcut script in `package.json`
 
-	gulp // assumes gulp installed globally
+	{
+		"scripts": {
+	    	"build": "gulp"
+		}
+	}
+
+
+##	Run build script
+
+	npm run build
 
 ##	Check out transpiled code
 

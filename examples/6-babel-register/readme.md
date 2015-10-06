@@ -1,24 +1,29 @@
 # Babel Require Hook
 
 For short lived utils, or in your app -- not to be used in "library" code as it modifies globally.
+
 Allows for imported modules to be written es6.
 
 
-*	Install
+##	Install
 
-		npm install --save babel-core
+	npm install
 
-
-*	Include require hook in app's front-door file
-
-		require("babel-core/register");
+Dependencies are defined in [package.json](./package.json)
 
 
-*	Take a look at app stucture.
+##	Include require hook your app's main file
+
+	require("babel-core/register");
 
 
-*	Run:
+##	Take a look at app stucture.
 
-		node index.js
+View the [index.js](./index.js) and [logger.js](./logger.js)
+
+
+##	Run:
+
+	node index.js
 
 
