@@ -24,14 +24,20 @@ Checkout the [src](./src) directory
 
 ##	Build your es6
 
-Run `npm run build` (or `npm run dev`)
+Run `npm run build` (or `npm run dev` for active dev)
 
 
 ## Check build
 
 Look at the [dist](./dist) directory.
 
-##	Specify `main` file as main module in package.json:
+
+## Run Module
+
+	node dist/index.js
+
+
+##	Specify `dist/index.js` as module's `main` file [package.json](./package.json):
 
 	{
 		"main": "dist/index.js",

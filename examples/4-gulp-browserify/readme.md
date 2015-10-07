@@ -1,19 +1,25 @@
 # Complex Browser Bundling with Gulp + Browersify + Babelify
 
+
 ##	Install dependencies
 
 	npm install
 
-## Create a specially name gulp file
+Dependencies are defined in [package.json](./package.json)
 
-Create/Edit [gulpfile.babel.js](gulpfile.babel.js)
+
+## Create a specially name gulp file `gulpfile.babel.js`
+
+Create/Edit [gulpfile.babel.js](gulpfile.babel.js) in ES6
+
 
 ##	Create front-end app
 
-*	View the [src folder](./src)
 *	View source of [app.html](app.html)
+*	View the [src folder](./src)
 
-## Create build shortcut script in `package.json`
+
+## Create build shortcut script in [package.json](./package.json)
 
 	{
 		"scripts": {
@@ -26,10 +32,22 @@ Create/Edit [gulpfile.babel.js](gulpfile.babel.js)
 
 	npm run build
 
+
 ##	Check out transpiled code
 
 Inspect the [dist](./dist) folder
 
+
 ##	View app in browser
 
-Open [app.html](./app.html) in browser
+Add a `server` script to [package.json](./package.json) to serve up static assets
+
+	{
+		"scripts": {
+		    "build": "gulp",
+		    "server": "http-server"
+		}
+	}
+
+Run `npm run server`
+Open [app.html](http:127.0.0.1:8080/app.html) in browser (if port matches `stdout`) and inspect.

@@ -8,6 +8,11 @@
 Dependencies are defined in [package.json](./package.json)
 
 
+##	Create Gulpfile `gulpfile.babel.js` in ES6
+
+look at this [gulp file](./gulpfile.babel.js)
+
+
 ##	Define a build script
 
 In [package.json](package.json):
@@ -17,11 +22,6 @@ In [package.json](package.json):
     		"build": "gulp"
 		}
 	}
-
-
-##	Create Gulpfile `gulpfile.babel.js` in ES6
-
-look at this [gulp file](./gulpfile.babel.js)
 
 
 ##	Run Gulp
